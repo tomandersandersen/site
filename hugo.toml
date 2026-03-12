@@ -1,0 +1,4 @@
+baseURL = "https://tomandersandersen.github.io"
+languageCode = "en-us"
+title = "Tom Andersen"
+theme = "PaperMod"
