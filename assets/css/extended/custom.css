@@ -1,0 +1,44 @@
+body {
+}
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.mermaid {
+  font-family: "IBM Plex Mono", monospace !important;
+}
+
+.mermaid svg {
+  font-family: "IBM Plex Mono", monospace !important;
+}
+
+.mermaid text {
+  fill: #ffffff !important;
+}
+
+.mermaid .label {
+  color: #ffffff !important;
+}
+
+.mermaid .cluster-label text {
+  fill: #ffffff !important;
+}
+
+.mermaid .nodeLabel {
+  color: #ffffff !important;
+}
+
+.mermaid .edgeLabel {
+  color: #ffffff !important;
+}
+
+.mermaid {
+  display: flex;
+  justify-content: center;
+}
+
+.mermaid svg {
+  margin: 0 auto;
+}
+
