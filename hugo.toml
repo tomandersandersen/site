@@ -1,0 +1,38 @@
+baseURL = "https://tomandersandersen.github.io/site"
+languageCode = "en-us"
+title = "Tom Andersen"
+theme = "PaperMod"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[params]
+  mainSections = ["posts"]
+  mermaid = true
+
+[params.assets]
+  disableHLJS = false
+
+[taxonomies]
+  project = "projects"
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 10
+
+[[menu.main]]
+  name = "Game project"
+  url = "/projects/game-engine/"
+  weight = 1
+  parent = "Projects"
+
+
